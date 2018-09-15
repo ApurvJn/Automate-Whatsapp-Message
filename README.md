@@ -9,5 +9,7 @@ pip install selenium
 
 # Extra
  You can even Write How many times you want to send a particular message.
- Also by a few modifacation you can send a message to multiple users all together
+ 
+ 
+ Also by a few modification you can send a message to multiple users all together
 
