@@ -25,8 +25,7 @@ person_title = wait.until(EC.presence_of_element_located((
 #print(person_title)
 person_title.click()
 inp_xpath = '//div[@class="_2S1VP copyable-text selectable-text"]'
-input_box = wait.until(EC.presence_of_element_located((
-    By.XPATH, inp_xpath)))
+input_box = wait.until(EC.presence_of_element_located((By.XPATH, inp_xpath)))
 
 for i in range(count):
     input_box.send_keys(message + Keys.ENTER)
