@@ -7,11 +7,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-target = str(input('Enter name of person/group you want to send message to:'))
+receiver = str(input('Enter name of Person:'))
 
-string = str(input('Enter your message: '))
+message = str(input('Enter your message: '))
 
-n = int(input('Enter number of times you want your message to be sent: '))
+ count = int(input('Number of times you need to send the message: '))
 
 driver = webdriver.Chrome(r"your complete path for chrome drive ")
  
@@ -22,12 +22,12 @@ x_arg = '//span[contains(@title, '+ '"' +target + '"'+ ')]'
 #print(x_arg)
 person_title = wait.until(EC.presence_of_element_located((
     By.XPATH, x_arg)))
-print(person_title)
+#print(person_title)
 person_title.click()
 inp_xpath = '//div[@class="_2S1VP copyable-text selectable-text"]'
 input_box = wait.until(EC.presence_of_element_located((
     By.XPATH, inp_xpath)))
 
-for i in range(n):
-    input_box.send_keys(string + Keys.ENTER)
+for i in range(count):
+    input_box.send_keys(message + Keys.ENTER)
     time.sleep(1)
