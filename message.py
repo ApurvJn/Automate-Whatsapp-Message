@@ -18,7 +18,7 @@ driver = webdriver.Chrome(r"your complete path for chrome drive ")
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
  
-x_arg = '//span[contains(@title, '+ '"' +target + '"'+ ')]'
+x_arg = '//span[contains(@title, '+ '"' +receiver + '"'+ ')]'
 #print(x_arg)
 person_title = wait.until(EC.presence_of_element_located((
     By.XPATH, x_arg)))
