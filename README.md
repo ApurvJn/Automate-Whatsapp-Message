@@ -8,7 +8,7 @@ It Support Python Version 3.7 and above.
 pip install selenium
 
 # Run
-Just copy message.py in your directory then open terminal and Simply run message.py file  
+Just copy message.py in your directory of system you are using then open terminal and Simply run message.py file  
 
 # Extra Things
  You can even Write How many times you want to send a particular message.
