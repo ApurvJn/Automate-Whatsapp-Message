@@ -11,8 +11,7 @@ pip install selenium
 Just copy message.py in your directory of system you are using then open terminal and Simply run message.py file  
 
 # Extra Things
+
  You can even Write How many times you want to send a particular message.
- 
- 
  Also by a few modification you can send a message to multiple users all together
 
