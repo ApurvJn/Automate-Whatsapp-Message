@@ -10,7 +10,7 @@ pip install selenium
 # Run
 Just copy message.py in your directory then open terminal and Simply run message.py file  
 
-# Extra
+# Extra Things
  You can even Write How many times you want to send a particular message.
  
  
