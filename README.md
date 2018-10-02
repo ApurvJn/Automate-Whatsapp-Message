@@ -1,4 +1,5 @@
 # Automate-Whatsapp-M
+Ever think of using Phython in your daily life, making things look cool .
 This is a Simple by which you can Automaticallt Send a Whatsapp Message to one of your Contact you or Even a Group.
 
 # Python Version
